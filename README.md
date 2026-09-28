@@ -2,7 +2,7 @@
 Proyecto Aerolínea con Visual Studio Code + Maven + GitHub.
 
 ## Requisitos implementados
-- CLI en Java para recomendar la tarifa más adecuada según reglas de negocio.
+- GUI de escritorio en Swing y CLI para recomendar la tarifa más adecuada según reglas de negocio.
 - Gestión con Maven.
 - Tests con JUnit 5 y ejecución con Surefire.
 - Cobertura con JaCoCo.
@@ -21,6 +21,11 @@ mvn site:site
 ## Generar Javadoc
 ```bash
 mvn javadoc:javadoc
+```
+
+## Ejecutar la GUI
+```bash
+mvn exec:java
 ```
 
 ## Ejecutar la CLI
